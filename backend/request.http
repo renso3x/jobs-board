@@ -1,0 +1,12 @@
+###
+GET http://localhost:8080/users/1
+
+
+###
+GET http://localhost:8080/jobs
+
+
+###
+GET http://localhost:8080/jobs?page=10&limit=3
+
+
