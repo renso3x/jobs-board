@@ -7,6 +7,7 @@ GET http://localhost:8080/jobs
 
 
 ###
-GET http://localhost:8080/jobs?page=10&limit=3
+GET http://localhost:8080/jobs?page=2&limit=5
 
-
+###
+GET http://localhost:8080/jobs?page=1&limit=5&filterDate=05-14-2022

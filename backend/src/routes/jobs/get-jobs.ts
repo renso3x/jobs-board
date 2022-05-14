@@ -6,10 +6,12 @@ const getAllJobsHandler = async (req: Request, res: Response) => {
   const { query } = req
   const limit = parseInt(query.limit as string)
   const page = parseInt(query.page as string)
-  const filterOptions: Partial<FilterOptions> = {
+  const filterOptions: FilterOptions = {
     limit,
     page,
+    filterDate: new Date(query.filterDate as string)
   }
+
   const jobs = await jobService().getAllJobs(filterOptions)
 
   return res.status(StatusCodes.OK).send(jobs)

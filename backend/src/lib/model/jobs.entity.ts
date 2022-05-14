@@ -6,5 +6,5 @@ export interface Jobs {
   startShift: Date
   endShift: Date
   hourlyRate: number
-  dateCreated: Date
+  dateCreated: string
 }
