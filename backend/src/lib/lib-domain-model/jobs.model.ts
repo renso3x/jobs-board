@@ -17,6 +17,7 @@ export class JobsModel {
   }
 
   async getAllJobs(filterOptions: Partial<FilterOptions>): Promise<Jobs[] | []> {
+    console.log(filterOptions)
     const { limit, page, filterDate } = filterOptions
     const fortnight = getForthNight(filterDate || new Date())
 
