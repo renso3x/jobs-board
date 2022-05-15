@@ -9,7 +9,7 @@ export const userService = () => {
     return await userModel.getUserProfile(userId)
   }
 
-   const getUserBoard = async (userId: string) => {
+  const getUserBoard = async (userId: string) => {
     return await userBoardModel.getUserBoard(userId)
   }
 

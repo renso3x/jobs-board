@@ -52,15 +52,7 @@ export class JobsModel {
 
         if (doc.length === 0) resolve([])
 
-        const jobBoard = Promise.all(doc.map(async (d: Jobs) => {
-          const company = await this.company.getCompanyById(d.companyId.toString())
-          return {
-            ...d,
-            company
-          }
-        }))
-
-        resolve(jobBoard)
+        resolve(doc)
       })
     })
   }

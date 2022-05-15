@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc --build",
     "start:dev": "nodemon src/main.ts",
-    "db:seed": "ts-node seeder.ts"
+    "db:seed": "ts-node seeder.ts",
+    "start": "node dist/src/main.js"
   },
   "keywords": [],
   "author": "",

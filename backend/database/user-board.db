@@ -1,1 +1,1 @@
-{"id":"1","type":"company","jobId":"1","userId":"1","action":"invited","dateApplied":"5/13/2022","_id":"Vv3ChrcN1BVtQiz6"}
+{"id":1,"companyId":1,"userId":"1","jobName":"Research Nurse","startDate":"5/13/2022","action":"invited","startShift":"1:31 PM","endShift":"4:58 PM","hourlyRate":"$10.67","dateCreated":"4/11/2022","company":{"id":1,"companyName":"Ainyx","streetAddress":"8428 Redwing Terrace","city":"Sua","country":"Indonesia","rating":5},"_id":"8Blc9VJaH9g2QAtK"}
