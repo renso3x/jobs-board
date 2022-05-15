@@ -13,8 +13,6 @@ const getUserBoardHandler = async (req: Request, res: Response) => {
 
   const userResponse = await userService().getUserBoard(params.userId)
 
-  console.log(userResponse)
-
   return res.status(StatusCodes.OK).send(userResponse)
 }
 
