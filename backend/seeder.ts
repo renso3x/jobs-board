@@ -28,7 +28,7 @@ class DB {
   seedJobsActivity() {
     this.jobActivity = new Nedb('database/jobs-activity.db')
     this.jobActivity.loadDatabase();
-    this.jobActivity.insert({"id": "1","type": "company","jobId": "1","action": "invited","dateApplied": "5/13/2022"})
+    this.jobActivity.insert({"id": "1","type": "company","jobId": "1", "userId": "1","action": "invited","dateApplied": "5/13/2022"})
   }
 
   seedJobs() {

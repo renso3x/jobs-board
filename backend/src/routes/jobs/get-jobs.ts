@@ -9,9 +9,8 @@ const getAllJobsHandler = async (req: Request, res: Response) => {
   const filterOptions: FilterOptions = {
     limit,
     page,
-    filterDate: query.filterDate ? new Date(query.filterDate as string) : new Date()
+    filterDate: new Date(query.filterDate as string)
   }
-
   const jobs = await jobService().getAllJobs(filterOptions)
 
   return res.status(StatusCodes.OK).send(jobs)

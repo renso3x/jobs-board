@@ -3,15 +3,10 @@ enum Action {
   Apply = "apply"
 }
 
-enum UserType {
-  company = "company",
-  user = "user"
-}
-
-interface UserActivity {
+export interface UserBoard {
   id: number
   jobId: number
+  userId: number
   action: Action
   dateApplied: Date
-  type: UserType
 }
