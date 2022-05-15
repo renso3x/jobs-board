@@ -1,0 +1,57 @@
+@import '../../App.scss';
+
+.jobCard {
+  border-left-width: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-left-style: solid;
+}
+
+.cardInvited {
+  border-left-color: $secondary-color;
+}
+
+.cardDefault {
+  border-left-color: $primary-color;
+}
+
+.cardDivider {
+  border-right-style: solid;
+  border-right-width: 3px;
+  border-right-color: $border-color;
+}
+
+.cardTitle {
+  font-family: 'Montserrat', sans-serif;
+  color: $primary-color;
+  font-size: 17px;
+}
+
+.cardText {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.cardTextDate {
+  font-weight: bold;
+}
+
+.cardRate {
+  font-weight: bold;
+}
+
+.btnCard {
+  border-radius: 0;
+  height: 40px;
+  padding: 0 26px;
+  border: $primary-color;
+}
+
+.btnDecline {
+  color: $primary-color;
+}
+
+.btnApply {
+  background-color: $primary-color;
+  color: white;
+}

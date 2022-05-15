@@ -13,3 +13,9 @@ export const getForthNight = (currDate, operation) => {
     end: dayjs(`${currentDateUnix}`).format('MM-DD-YYYY'),
   }
 }
+
+export const formatDateRange = (date) => {
+  const range = getForthNight(date)
+
+  return `${dayjs(range.from).format('D')} - ${dayjs(range.end).format('D MMM YYYY')}`
+}

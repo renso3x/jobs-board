@@ -1,0 +1,30 @@
+@import '../../App.scss';
+
+.profile {
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $border-color;
+  margin-right: 10px;
+  height: 35px;
+  width: 35px;
+}
+
+.navLink {
+  font-family: 'Montserrat', sans-serif;
+  color: $primary-color;
+  font-size: 17px;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.navBar {
+  margin-left: 50px;
+}
+
+.btnLogout {
+  font-family: 'Montserrat', sans-serif;
+  color: $primary-color;
+}
